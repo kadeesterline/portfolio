@@ -1,0 +1,47 @@
+body {
+  /* background-color: #999; */
+  /* color: #fff; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: #999;
+  height: 3rem;
+}
+
+.header-title {
+  float: left;
+  margin: 0;
+  padding: 1rem;
+}
+
+.header-link {
+  float: right;
+  display: block;
+  padding: 1rem;
+}
+
+.intro-paragraph {
+  width: 40rem;
+}
+
+.headshot {
+  border: 2px solid red;
+}
+
+.project-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 20rem);
+}
+
+.project {
+  margin: 0;
+  padding: 0;
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid red;
+}
