@@ -24,12 +24,21 @@ body {
   padding: 1rem;
 }
 
+.intro-container {
+  display: flex;
+}
+
 .intro-paragraph {
   width: 40rem;
+  margin-top: 5rem;
 }
 
 .headshot {
-  border: 2px solid red;
+  width: 33%;
+  float: right;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  border-radius: 50%;
 }
 
 .project-container {
