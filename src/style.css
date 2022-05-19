@@ -1,5 +1,5 @@
 body {
-  background-color: #abd7eb;
+  background-color: #2a9d8f;
   /* color: #fff; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -7,7 +7,7 @@ body {
 
 .header-link:link,
 .header-link:visited {
-  background-color: #777;
+  background-color: #e9c46a;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -15,15 +15,14 @@ body {
   display: inline-block;
 }
 
-.header-link:hover,
-.header-link:active {
-  background-color: #888;
+.header-link:hover {
+  background-color: #f4a261;
 }
 
 .header {
   margin: 0;
   padding: 0;
-  background-color: #999;
+  background-color: #e9c46a;
   height: 3rem;
 }
 
@@ -49,7 +48,7 @@ body {
   padding: 20px;
   background: #fff;
   border-radius: 25px;
-  box-shadow: 5px 5px 5px #777;
+  box-shadow: 5px 5px 5px #264653;
 }
 
 .headshot {
@@ -78,7 +77,7 @@ body {
   height: 35rem;
   border-radius: 25px;
   background: #fff;
-  box-shadow: 5px 5px 5px #777;
+  box-shadow: 5px 5px 5px #264653;
 }
 
 .project-title {
@@ -103,7 +102,7 @@ body {
   padding: 10px;
   margin: auto;
   width: 100%;
-  box-shadow: 2px 2px 5px #777;
+  box-shadow: 2px 2px 5px #264653;
 }
 
 .contact-wrapper {
@@ -115,3 +114,10 @@ body {
   margin: 5px;
   padding: 5px;
 }
+
+.contact-form {
+  background: white;
+  padding: 10px;
+}
+
+/* COLOR PALETTE ! https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
