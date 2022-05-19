@@ -1,12 +1,12 @@
 body {
-  /* background-color: #999; */
+  background-color: #abd7eb;
   /* color: #fff; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-a:link,
-a:visited {
+.header-link:link,
+.header-link:visited {
   background-color: #777;
   color: white;
   padding: 14px 25px;
@@ -15,8 +15,8 @@ a:visited {
   display: inline-block;
 }
 
-a:hover,
-a:active {
+.header-link:hover,
+.header-link:active {
   background-color: #888;
 }
 
@@ -46,12 +46,16 @@ a:active {
 .intro-paragraph {
   width: 40rem;
   margin-top: 5rem;
+  padding: 20px;
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #777;
 }
 
 .headshot {
   width: 33%;
   float: right;
-  margin-left: 5rem;
+  margin-left: 2rem;
   margin-top: 1rem;
   border-radius: 50%;
 }
@@ -72,12 +76,14 @@ a:active {
   padding: 0;
   width: 30rem;
   height: 35rem;
-  border: 2px solid red;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 5px 5px 5px #777;
 }
 
 .project-title {
   margin: auto;
-  padding: 5px;
+  padding: 10px;
 }
 
 .skills-wrapper {
@@ -88,7 +94,16 @@ a:active {
 .skills-container {
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(6, 5rem);
+  grid-template-columns: repeat(6, 7rem);
+}
+
+.skill-name {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  box-shadow: 2px 2px 5px #777;
 }
 
 .contact-wrapper {
