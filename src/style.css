@@ -42,9 +42,18 @@ body {
   display: flex;
 }
 
+.intro-text {
+  width: 54%;
+  border: 2px solid red;
+}
+
+.intro-header {
+  font-size: 45px;
+}
+
 .intro-paragraph {
   width: 40rem;
-  margin-top: 5rem;
+  margin-top: 20px;
   padding: 20px;
   background: #fff;
   border-radius: 25px;
@@ -53,10 +62,10 @@ body {
 
 .headshot {
   width: 33%;
+  height: 33%;
   float: right;
-  margin-left: 2rem;
-  margin-top: 1rem;
   border-radius: 50%;
+  margin: 50px;
 }
 
 .project-wrapper {
@@ -80,9 +89,16 @@ body {
   box-shadow: 5px 5px 5px #264653;
 }
 
+.project-header {
+  display: grid;
+}
+
+.project-links {
+  margin: auto;
+}
+
 .project-title {
   margin: auto;
-  padding: 10px;
 }
 
 .skills-wrapper {
@@ -93,7 +109,7 @@ body {
 .skills-container {
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(5, 7rem);
+  grid-template-columns: repeat(6, 7rem);
 }
 
 .skill-name {
