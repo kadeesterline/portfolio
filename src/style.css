@@ -67,14 +67,14 @@ body {
 .project-container {
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(2, 30rem);
+  grid-template-rows: repeat(3, 25rem);
 }
 
 .project {
   margin: 0;
   padding: 0;
-  width: 30rem;
-  height: 35rem;
+  width: 60rem;
+  height: 25rem;
   border-radius: 25px;
   background: #fff;
   box-shadow: 5px 5px 5px #264653;
@@ -93,7 +93,7 @@ body {
 .skills-container {
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(6, 7rem);
+  grid-template-columns: repeat(5, 7rem);
 }
 
 .skill-name {
@@ -110,6 +110,10 @@ body {
   width: 75%;
 }
 
+.contact-links {
+  display: flex;
+}
+
 .contact {
   margin: 5px;
   padding: 5px;
@@ -118,6 +122,10 @@ body {
 .contact-form {
   background: white;
   padding: 10px;
+  height: 15rem;
+  width: 75%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px #264653;
 }
 
 /* COLOR PALETTE ! https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */

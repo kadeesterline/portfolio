@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kade Esterline</title>
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script defer src="./src/script.js"></script>
   </head>
@@ -42,10 +44,10 @@
     <div class="project-wrapper" id="projects">
       <h2>Projects</h2>
       <div class="project-container">
-        <div class="project p1"><h3 class="project-title">Harmony</h3></div>
-        <div class="project p2"><h3 class="project-title">Hard Park</h3></div>
-        <div class="project p3"><h3 class="project-title">KanBan</h3></div>
-        <div class="project p4"><h3 class="project-title">idk yet</h3></div>
+        <div class="project p1"><h3 class="project-title">Harmony</h3> <a>GitHub</a> <a>Demo</a> <a>Deployed Version</a></div>
+        <div class="project p2"><h3 class="project-title">Hard Park</h3> <a>GitHub</a> <a>Demo</a> <a>Deployed Version</a></div>
+        <div class="project p3"><h3 class="project-title">KanBan</h3> <a>GitHub</a> <a>Demo</a> <a>Deployed Version</a></div>
+        <div class="project p4"><h3 class="project-title">idk yet</h3> <a>GitHub</a> <a>Demo</a> <a>Deployed Version</a></div>
       </div>
     </div>
 
@@ -53,29 +55,40 @@
       <h2>Skills</h2>
       <div class="skills-container">
         <div class="skill s1"><p class="skill-name">JavaScript</p></div>
-        <div class="skill s2"><p class="skill-name">HTML</p></div>
-        <div class="skill s3"><p class="skill-name">CSS</p></div>
-        <div class="skill s4"><p class="skill-name">React</p></div>
-        <div class="skill s5"><p class="skill-name">Ruby</p></div>
-        <div class="skill s6"><p class="skill-name">Ruby on Rails</p></div>
+        <div class="skill s2"><p class="skill-name">HTML/CSS</p></div>
+        <div class="skill s3"><p class="skill-name">React</p></div>
+        <div class="skill s4"><p class="skill-name">Ruby</p></div>
+        <div class="skill s5"><p class="skill-name">Ruby on Rails</p></div>
+        <div class="skill s6"><p class="skill-name">Sinatra</p></div>
+        <div class="skill s7"><p class="skill-name">Linux</p></div>
+        <div class="skill s8"><p class="skill-name">REST APIs</p></div>
+        <div class="skill s9"><p class="skill-name">SQL</p></div>
+        <div class="skill s10"><p class="skill-name">Git</p></div>
+
       </div>
     </div>
 
     <div class="contact-wrapper" id="contacts">
       <h2>Contact</h2>
       <div class="contact-container">
-        <div class="contact c1">LinkedIn - <a href="https://www.linkedin.com/in/kade-esterline/">LinkedIn</a></div>
+        <div class="contact-links">
+        <div class="contact c1">LinkedIn <i class="fa-brands fa-linkedin"></i> - <a href="https://www.linkedin.com/in/kade-esterline/">LinkedIn</a></div>
         <div class="contact c2">Blog - <a href="https://dev.to/kadeesterline">Dev.To</a></div>
-        <div class="contact c3">GitHub - <a href="https://github.com/kadeesterline">GitHub</a></div>
+        <div class="contact c3">GitHub <i class="fa-brands fa-github"></i> - <a href="https://github.com/kadeesterline">GitHub</a></div>
         <div class="contact c4">Email - <a>Email<a></a></div>
+        </div>
+
         <div class="contact c5">
-          <form class="contact-form">
-            <input type="text" autocomplete="off" placeholder="Your Name">
-            <input type="email" autocomplete="none" placeholder="Your Email">
-            <input type="text" autocomplete="0" placeholder="Subject">
-            <input type="text-area" autocomplete="never" placeholder="Message">
+          <form class="contact-form" target="_self" action="https://formsubmit.co/baba7b2958de75a1707599b596f34af6" method="POST">
+            <input type="text" autocomplete="off" name="name" required placeholder="Your Name">
+            <input type="email" autocomplete="none" name="email" required placeholder="Your Email">
+            <input type="text" autocomplete="0" name="subject" required placeholder="Subject">
+            <input type="text" name="_honey" style="display:none">
+            <input type="text-area" autocomplete="never" name="message" required placeholder="Message">
+            <button type="submit">Submit</button>
           </form>
         </div>
+        <!-- <a href="https://formsubmit.co/el/bafica" target="_blank">Email us</a> -->
       </div>
     </div>
   </body>
