@@ -139,11 +139,6 @@ a:visited {
   margin: auto;
 }
 
-.skills-wrapper {
-  margin: auto;
-  width: 75%;
-}
-
 .tech-stack {
   display: flex;
   margin: auto;
@@ -151,25 +146,49 @@ a:visited {
 
 .tech-stack li {
   float: left;
-
   padding-right: 5px;
-
   margin-right: 15px;
+}
+
+.skills-wrapper {
+  margin: auto;
+  width: 65%;
 }
 
 .skills-container {
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(6, 7rem);
+  grid-template-columns: repeat(13, 7rem);
+  border: 3px solid red;
+  overflow-y: scroll;
+  padding: 25px;
 }
 
-.skill-name {
+.skill {
   background: #fff;
   border-radius: 5px;
   padding: 10px;
   margin: auto;
   width: 100%;
   box-shadow: 2px 2px 5px #264653;
+  display: grid;
+  grid-template-rows: repeat(4, 3rem);
+}
+
+.skill i {
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+  font-size: 5em;
+}
+
+.skill-name {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.skill-subtitle {
+  padding-top: 25px;
 }
 
 .contact-wrapper {
