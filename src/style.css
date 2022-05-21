@@ -11,6 +11,14 @@ a:visited {
   color: black;
 }
 
+h2 {
+  font-size: xx-large;
+}
+
+p {
+  font-size: large;
+}
+
 .background {
   height: 100vh;
   aspect-ratio: 960/300;
@@ -23,7 +31,6 @@ a:visited {
   color: white;
   padding: 14px 25px;
   text-align: center;
-
   display: inline-block;
 }
 
@@ -59,16 +66,20 @@ a:visited {
 
 .intro-text {
   width: 54%;
+  display: grid;
+  padding-right: 3rem;
+  grid-template-rows: repeat(1, 22rem);
 }
 
 .intro-header {
-  font-size: 45px;
+  font-size: 85px;
 }
 
 .intro-paragraph {
   width: 40rem;
   margin-top: 20px;
-  padding: 20px;
+  padding: 50px;
+  font-size: large;
   background: #fff;
   border-radius: 25px;
   box-shadow: 5px 5px 5px #264653;
@@ -84,7 +95,7 @@ a:visited {
 
 .project-wrapper {
   margin: auto;
-  width: 75%;
+  width: 65%;
 }
 
 .project-container {
@@ -134,10 +145,16 @@ a:visited {
 }
 
 .project-photos img {
-  width: 40%;
+  width: 38%;
   height: auto;
   margin: auto;
 }
+
+/* .project-photos img:hover {
+  width: 50%;
+  height: auto;
+  margin: 0;
+} */
 
 .tech-stack {
   display: flex;
@@ -157,7 +174,7 @@ a:visited {
 
 .skills-container {
   display: grid;
-  gap: 50px;
+  gap: 130px;
   grid-template-columns: repeat(13, 7rem);
   border: 3px solid red;
   overflow-y: scroll;
@@ -169,10 +186,10 @@ a:visited {
   border-radius: 5px;
   padding: 10px;
   margin: auto;
-  width: 100%;
+  width: 12rem;
   box-shadow: 2px 2px 5px #264653;
   display: grid;
-  grid-template-rows: repeat(4, 3rem);
+  grid-template-rows: repeat(3, 7rem);
 }
 
 .skill i {
@@ -188,12 +205,13 @@ a:visited {
 }
 
 .skill-subtitle {
+  margin: auto;
   padding-top: 25px;
 }
 
 .contact-wrapper {
   margin: auto;
-  width: 75%;
+  width: 65%;
 }
 
 .contact-links {

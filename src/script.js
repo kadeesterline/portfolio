@@ -1,14 +1,14 @@
 let options = {
   strings: [
-    "Software Engineer",
-    "Problem Solver",
-    "Frontend Developer",
-    "Freelancer",
+    "a Software Engineer",
+    "a Problem Solver",
+    "a Frontend Developer",
+    "a Freelancer",
   ],
   shuffle: true,
   showCursor: false,
   loop: true,
-  typeSpeed: 60,
+  typeSpeed: 30,
   backSpeed: 60,
 };
 
