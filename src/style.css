@@ -5,13 +5,25 @@ body {
   margin: 0;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.background {
+  height: 100vh;
+  aspect-ratio: 960/300;
+  z-index: 10;
+}
+
 .header-link:link,
 .header-link:visited {
   background-color: #e9c46a;
   color: white;
   padding: 14px 25px;
   text-align: center;
-  text-decoration: none;
+
   display: inline-block;
 }
 
@@ -39,12 +51,14 @@ body {
 }
 
 .intro-container {
+}
+
+.intro-wrapper {
   display: flex;
 }
 
 .intro-text {
   width: 54%;
-  border: 2px solid red;
 }
 
 .intro-header {
@@ -91,19 +105,56 @@ body {
 
 .project-header {
   display: grid;
+  margin-top: 5px;
+  border-bottom: 3px solid #000;
 }
 
 .project-links {
   margin: auto;
+  margin-top: 10px;
+}
+
+.project-links a {
+  margin: 10px;
 }
 
 .project-title {
   margin: auto;
 }
 
+.project-subtitle {
+  margin: auto;
+}
+
+.project-photos {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-photos img {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
 .skills-wrapper {
   margin: auto;
   width: 75%;
+}
+
+.tech-stack {
+  display: flex;
+  margin: auto;
+}
+
+.tech-stack li {
+  float: left;
+
+  padding-right: 5px;
+
+  margin-right: 15px;
 }
 
 .skills-container {
