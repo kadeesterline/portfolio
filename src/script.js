@@ -5,7 +5,7 @@ let options = {
     "a Frontend Developer",
     "a Freelancer",
   ],
-  shuffle: true,
+  // shuffle: true,
   showCursor: false,
   loop: true,
   typeSpeed: 30,

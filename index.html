@@ -18,14 +18,14 @@
     <script defer src="./src/script.js"></script>
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <h3 class="header-title">Kade Esterline</h3>
       <a class="header-link" href="#contacts">Contact</a>
       <a class="header-link" href="#skills">Skills</a>
       <a class="header-link" href="#projects">Projects</a>
-    </header>
+    </header> -->
 
-    <div>
+    <div id="intro">
       <div class="intro-container">
         <div class="intro-wrapper">
           <div class="intro-text">
@@ -59,266 +59,272 @@
       </div>
     </div>
 
-    <div class="project-wrapper" id="projects">
-      <h2>Projects</h2>
-      <div class="project-container">
-        <div class="project p1">
-          <div class="project-header">
-            <h3 class="project-title">Harmony</h3>
-            <div class="project-links">
-              <a href="https://github.com/kadeesterline/harmony"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-              <a><i class="fa-brands fa-youtube"></i></a>
-              <a href="https://harmony-project.herokuapp.com/"
-                ><i class="fa-solid fa-link"></i
-              ></a>
+    <div id="projects">
+      <div class="project-wrapper">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project p1">
+            <div class="project-header">
+              <h3 class="project-title">Harmony</h3>
+              <div class="project-links">
+                <a href="https://github.com/kadeesterline/harmony"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://harmony-project.herokuapp.com/"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+              <div class="project-subtitle">
+                <p>
+                  <em>
+                    Harmony is a messaging and collaboration tool similar to
+                    discord or slack.
+                  </em>
+                </p>
+              </div>
+              <div class="tech-stack">
+                <p><strong>Tech Stack:</strong></p>
+                <ul>
+                  <li>React</li>
+                  <li>Tailwind</li>
+                  <li>Ruby on Rails</li>
+                  <li>PostgreSQL</li>
+                  <li>AWS S3</li>
+                </ul>
+              </div>
             </div>
-            <div class="project-subtitle">
-              <p>
-                <em>
-                  Harmony is a messaging and collaboration tool similar to
-                  discord or slack.
-                </em>
-              </p>
-            </div>
-            <div class="tech-stack">
-              <p><strong>Tech Stack:</strong></p>
-              <ul>
-                <li>React</li>
-                <li>Tailwind</li>
-                <li>Ruby on Rails</li>
-                <li>PostgreSQL</li>
-                <li>AWS S3</li>
-              </ul>
-            </div>
-          </div>
-          <div class="project-photos">
-            <img
-              src="./src/images/harmony-photos/Screen Shot 2022-05-11 at 2.01.02 PM.png"
-              alt="harmony home page"
-            />
-            <img
-              src="./src/images/harmony-photos/Screen Shot 2022-05-11 at 2.03.15 PM.png"
-              alt="harmony room view"
-            />
-          </div>
-        </div>
-
-        <div class="project p2">
-          <div class="project-header">
-            <h3 class="project-title">Hard Park</h3>
-            <div class="project-links">
-              <a href="https://github.com/kadeesterline/hard-park-front-end">
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a><i class="fa-brands fa-youtube"></i></a>
-              <a><i class="fa-solid fa-link"></i></a>
-            </div>
-            <div class="project-subtitle">
-              <p>
-                <em>
-                  HardPark is a social media platform built with a focus on
-                  cars.
-                </em>
-              </p>
-            </div>
-            <div class="tech-stack">
-              <p><strong>Tech Stack:</strong></p>
-              <ul>
-                <li>React</li>
-                <li>Bootstrap</li>
-                <li>Sinatra</li>
-                <li>ActiveRecord</li>
-                <li>SQLite</li>
-              </ul>
+            <div class="project-photos">
+              <img
+                src="./src/images/harmony-photos/Screen Shot 2022-05-11 at 2.01.02 PM.png"
+                alt="harmony home page"
+              />
+              <img
+                src="./src/images/harmony-photos/Screen Shot 2022-05-11 at 2.03.15 PM.png"
+                alt="harmony room view"
+              />
             </div>
           </div>
 
-          <div class="project-photos">
-            <img
-              src="./src/images/hardpark-photos/Screen Shot 2022-04-01 at 8.40.57 AM.png"
-              alt="hardpark home page"
-            />
-            <img
-              src="./src/images/hardpark-photos/Screen Shot 2022-04-01 at 8.41.24 AM.png"
-              alt="harmony feed view"
-            />
-          </div>
-        </div>
+          <div class="project p2">
+            <div class="project-header">
+              <h3 class="project-title">Hard Park</h3>
+              <div class="project-links">
+                <a href="https://github.com/kadeesterline/hard-park-front-end">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a><i class="fa-brands fa-youtube"></i></a>
+                <a><i class="fa-solid fa-link"></i></a>
+              </div>
+              <div class="project-subtitle">
+                <p>
+                  <em>
+                    HardPark is a social media platform built with a focus on
+                    cars.
+                  </em>
+                </p>
+              </div>
+              <div class="tech-stack">
+                <p><strong>Tech Stack:</strong></p>
+                <ul>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>Sinatra</li>
+                  <li>ActiveRecord</li>
+                  <li>SQLite</li>
+                </ul>
+              </div>
+            </div>
 
-        <div class="project p3">
-          <div class="project-header">
-            <h3 class="project-title">KanBan</h3>
-            <div class="project-links">
-              <a href="https://github.com/kadeesterline/kanban-project"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-              <a><i class="fa-brands fa-youtube"></i></a>
-              <a href="https://kanbanflatiron.herokuapp.com/"
-                ><i class="fa-solid fa-link"></i
-              ></a>
-            </div>
-            <div class="project-subtitle">
-              <p>
-                <em>
-                  KanBan is a project management tool similar to trello.
-                </em>
-              </p>
-            </div>
-            <div class="tech-stack">
-              <p><strong>Tech Stack:</strong></p>
-              <ul>
-                <li>React</li>
-                <li>Tailwind</li>
-                <li>Ruby on Rails</li>
-                <li>PostgreSQL</li>
-              </ul>
+            <div class="project-photos">
+              <img
+                src="./src/images/hardpark-photos/Screen Shot 2022-04-01 at 8.40.57 AM.png"
+                alt="hardpark home page"
+              />
+              <img
+                src="./src/images/hardpark-photos/Screen Shot 2022-04-01 at 8.41.24 AM.png"
+                alt="harmony feed view"
+              />
             </div>
           </div>
-        </div>
-        <!-- <div class="project p4">
+
+          <div class="project p3">
+            <div class="project-header">
+              <h3 class="project-title">KanBan</h3>
+              <div class="project-links">
+                <a href="https://github.com/kadeesterline/kanban-project"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://kanbanflatiron.herokuapp.com/"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+              <div class="project-subtitle">
+                <p>
+                  <em>
+                    KanBan is a project management tool similar to trello.
+                  </em>
+                </p>
+              </div>
+              <div class="tech-stack">
+                <p><strong>Tech Stack:</strong></p>
+                <ul>
+                  <li>React</li>
+                  <li>Tailwind</li>
+                  <li>Ruby on Rails</li>
+                  <li>PostgreSQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="project p4">
           <h3 class="project-title">idk yet</h3>
           <a>GitHub</a> <a>Demo</a> <a>Deployed Version</a>
         </div> -->
-      </div>
-    </div>
-
-    <div class="skills-wrapper" id="skills">
-      <h2>Skills</h2>
-      <div class="skills-container">
-        <div class="skill s1">
-          <i class="fa-brands fa-js"></i>
-          <p class="skill-name">JavaScript</p>
-          <p class="skill-subtitle">
-            <em>Vanilla as well as libraries and frameworks</em>
-          </p>
-        </div>
-        <div class="skill s2">
-          <i class="fa-brands fa-html5"></i>
-          <p class="skill-name">HTML</p>
-          <p class="skill-subtitle">
-            <em></em>
-          </p>
-        </div>
-        <div class="skill s3">
-          <i class="fa-brands fa-css3-alt"></i>
-          <p class="skill-name">CSS</p>
-          <p class="skill-subtitle">
-            <em>Both class based libraries and vanilla</em>
-          </p>
-        </div>
-        <div class="skill s4">
-          <i class="fa-brands fa-react"></i>
-          <p class="skill-name">React</p>
-          <p class="skill-subtitle">
-            <em>Familiar with version 17 and newer</em>
-          </p>
-        </div>
-        <div class="skill s5">
-          <!-- ICON -->
-          <p class="skill-name">Ruby</p>
-          <!-- SUBTITLE -->
-        </div>
-        <div class="skill s6">
-          <!-- ICON -->
-          <p class="skill-name">Ruby on Rails</p>
-          <p class="skill-subtitle">
-            <em>Quick to market backend code</em>
-          </p>
-        </div>
-        <div class="skill s7">
-          <!-- ICON -->
-          <p class="skill-name">Sinatra</p>
-          <p class="skill-subtitle">
-            <em>Simple REST API's with ActiveRecord</em>
-          </p>
-        </div>
-        <div class="skill s8">
-          <i class="fa-brands fa-linux"></i>
-          <p class="skill-name">Linux</p>
-          <p class="skill-subtitle">
-            <em>Basic shell commands</em>
-          </p>
-        </div>
-        <div class="skill s9">
-          <!-- ICONS -->
-          <p class="skill-name">REST APIs</p>
-          <p class="skill-subtitle">
-            <em>RESTful API's built with ActiveRecord</em>
-          </p>
-        </div>
-        <div class="skill s10"><p class="skill-name">SQLite3</p></div>
-        <div class="skill s11"><p class="skill-name">PostgreSQL</p></div>
-        <div class="skill s12">
-          <i class="fa-brands fa-github"></i>
-          <p class="skill-name">Git</p>
-          <p class="skill-subtitle">
-            <em>Git commands that power collaboration</em>
-          </p>
         </div>
       </div>
     </div>
 
-    <div class="contact-wrapper" id="contacts">
-      <h2>Contact</h2>
-      <div class="contact-container">
-        <div class="contact-links">
-          <div class="contact c1">
-            <a href="https://www.linkedin.com/in/kade-esterline/"
-              >LinkedIn <i class="fa-brands fa-linkedin"></i
-            ></a>
+    <div id="skills">
+      <div class="skills-wrapper">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill s1">
+            <i class="fa-brands fa-js"></i>
+            <p class="skill-name">JavaScript</p>
+            <p class="skill-subtitle">
+              <em>Vanilla as well as libraries and frameworks</em>
+            </p>
           </div>
-          <div class="contact c2">
-            <a href="https://dev.to/kadeesterline">Blog</a>
+          <div class="skill s2">
+            <i class="fa-brands fa-html5"></i>
+            <p class="skill-name">HTML</p>
+            <p class="skill-subtitle">
+              <em></em>
+            </p>
           </div>
-          <div class="contact c3">
-            <a href="https://github.com/kadeesterline"
-              >GitHub <i class="fa-brands fa-github"></i
-            ></a>
+          <div class="skill s3">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p class="skill-name">CSS</p>
+            <p class="skill-subtitle">
+              <em>Both class based libraries and vanilla</em>
+            </p>
+          </div>
+          <div class="skill s4">
+            <i class="fa-brands fa-react"></i>
+            <p class="skill-name">React</p>
+            <p class="skill-subtitle">
+              <em>Familiar with version 17 and newer</em>
+            </p>
+          </div>
+          <div class="skill s5">
+            <!-- ICON -->
+            <p class="skill-name">Ruby</p>
+            <!-- SUBTITLE -->
+          </div>
+          <div class="skill s6">
+            <!-- ICON -->
+            <p class="skill-name">Ruby on Rails</p>
+            <p class="skill-subtitle">
+              <em>Quick to market backend code</em>
+            </p>
+          </div>
+          <div class="skill s7">
+            <!-- ICON -->
+            <p class="skill-name">Sinatra</p>
+            <p class="skill-subtitle">
+              <em>Simple REST API's with ActiveRecord</em>
+            </p>
+          </div>
+          <div class="skill s8">
+            <i class="fa-brands fa-linux"></i>
+            <p class="skill-name">Linux</p>
+            <p class="skill-subtitle">
+              <em>Basic shell commands</em>
+            </p>
+          </div>
+          <div class="skill s9">
+            <!-- ICONS -->
+            <p class="skill-name">REST APIs</p>
+            <p class="skill-subtitle">
+              <em>RESTful API's built with ActiveRecord</em>
+            </p>
+          </div>
+          <div class="skill s10"><p class="skill-name">SQLite3</p></div>
+          <div class="skill s11"><p class="skill-name">PostgreSQL</p></div>
+          <div class="skill s12">
+            <i class="fa-brands fa-github"></i>
+            <p class="skill-name">Git</p>
+            <p class="skill-subtitle">
+              <em>Git commands that power collaboration</em>
+            </p>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="contact c5">
-          <form
-            class="contact-form"
-            target="_self"
-            action="https://formsubmit.co/baba7b2958de75a1707599b596f34af6"
-            method="POST"
-          >
-            <input
-              type="text"
-              autocomplete="off"
-              name="name"
-              required
-              placeholder="Your Name"
-            />
-            <input
-              type="email"
-              autocomplete="none"
-              name="email"
-              required
-              placeholder="Your Email"
-            />
-            <input
-              type="text"
-              autocomplete="0"
-              name="subject"
-              required
-              placeholder="Subject"
-            />
-            <input type="text" name="_honey" style="display: none" />
-            <input
-              type="text-area"
-              autocomplete="never"
-              name="message"
-              required
-              placeholder="Message"
-            />
-            <button type="submit">Submit</button>
-          </form>
+    <div id="contacts">
+      <div class="contact-wrapper">
+        <h2>Contact</h2>
+        <div class="contact-container">
+          <div class="contact-links">
+            <div class="contact c1">
+              <a href="https://www.linkedin.com/in/kade-esterline/"
+                >LinkedIn <i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <div class="contact c2">
+              <a href="https://dev.to/kadeesterline">Blog</a>
+            </div>
+            <div class="contact c3">
+              <a href="https://github.com/kadeesterline"
+                >GitHub <i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="contact c5">
+            <form
+              class="contact-form"
+              target="_self"
+              action="https://formsubmit.co/baba7b2958de75a1707599b596f34af6"
+              method="POST"
+            >
+              <input
+                type="text"
+                autocomplete="off"
+                name="name"
+                required
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                autocomplete="none"
+                name="email"
+                required
+                placeholder="Your Email"
+              />
+              <input
+                type="text"
+                autocomplete="0"
+                name="subject"
+                required
+                placeholder="Subject"
+              />
+              <input type="text" name="_honey" style="display: none" />
+              <input
+                type="text-area"
+                autocomplete="never"
+                name="message"
+                required
+                placeholder="Message"
+              />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <!-- <a href="https://formsubmit.co/el/bafica" target="_blank">Email us</a> -->
         </div>
-        <!-- <a href="https://formsubmit.co/el/bafica" target="_blank">Email us</a> -->
       </div>
     </div>
   </body>
