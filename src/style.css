@@ -27,21 +27,20 @@ p {
 
 .header-link:link,
 .header-link:visited {
-  background-color: #a72608;
-  color: white;
+  background-color: #bbc5aa;
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
 }
 
 .header-link:hover {
-  background-color: #f4a261;
+  background-color: #cfd6ae;
 }
 
 .header {
   margin: 0;
   padding: 0;
-  background-color: #a72608;
+  background-color: #bbc5aa;
   height: 3rem;
 }
 
@@ -49,7 +48,6 @@ p {
   float: left;
   margin: 0;
   padding: 1rem;
-  color: #a72608;
 }
 
 .header-link {
@@ -74,6 +72,11 @@ p {
 
 #contacts {
   background: #cfd6ae;
+}
+
+.wave {
+  width: 100vw;
+  aspect-ratio: 960/300;
 }
 
 .intro-container {
