@@ -1,4 +1,4 @@
-let options = {
+let typedOptions = {
   strings: [
     "a Software Engineer",
     "a Problem Solver",
@@ -12,4 +12,18 @@ let options = {
   backSpeed: 60,
 };
 
-let typed = new Typed("#intro-span", options);
+let typed = new Typed("#intro-span", typedOptions);
+
+let flickityOptions = {
+  accessibility: true,
+  adaptiveHeight: false,
+  autoPlay: false,
+  cellAlign: "center",
+  cellSelector: ".skill",
+  wrapAround: true,
+  pageDots: true,
+};
+
+let elem = document.querySelector(".skills-container");
+
+let flickity = new Flickity(elem, flickityOptions);

@@ -3,6 +3,7 @@ body {
   /* color: #fff; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  display: inline;
 }
 
 a:link,
@@ -13,6 +14,8 @@ a:visited {
 
 h2 {
   font-size: xx-large;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -74,9 +77,28 @@ p {
   background: #cfd6ae;
 }
 
+.wave-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
 .wave {
   width: 100vw;
   aspect-ratio: 960/300;
+  margin: 0;
+  padding: 0;
+}
+
+.wave-1 {
+  background-color: #bbc5aa;
+}
+
+.wave-2 {
+  background-color: #e6eed6;
+}
+
+.wave-3 {
+  background-color: #cfd6ae;
 }
 
 .intro-container {
@@ -189,6 +211,7 @@ p {
   float: left;
   padding-right: 5px;
   margin-right: 15px;
+  list-style-type: none;
 }
 
 .skills-wrapper {
@@ -197,28 +220,25 @@ p {
 }
 
 .skills-container {
-  display: grid;
-  gap: 130px;
-  grid-template-columns: repeat(13, 7rem);
-  border: 3px solid red;
-  overflow-y: scroll;
   padding: 25px;
 }
 
 .skill {
   background: #fff;
   border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 10px;
-  margin: auto;
   width: 12rem;
   box-shadow: 0px 0px 5px #000;
   display: grid;
-  grid-template-rows: repeat(3, 7rem);
+  grid-template-rows: repeat(3, 5rem);
+  text-align: center;
 }
 
 .skill i {
-  margin: 0;
-  margin-left: 15px;
+  margin: auto;
   padding: 0;
   font-size: 5em;
 }
@@ -254,6 +274,38 @@ p {
   width: 75%;
   border-radius: 25px;
   box-shadow: 0px 0px 5px #000;
+  display: grid;
 }
 
+.contact-form input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.name-input {
+  width: 50%;
+}
+
+.email-input {
+  width: 50%;
+}
+
+.subject-input {
+}
+
+.message-input {
+  height: 5rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.name-email-wrapper {
+  display: flex;
+}
+
+.submit-wrapper {
+  margin: auto;
+}
 /* COLOR PALETTE ! https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */

@@ -14,7 +14,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script defer src="./src/script.js"></script>
   </head>
   <body>
@@ -24,7 +29,6 @@
       <a class="header-link" href="#skills">Skills</a>
       <a class="header-link" href="#projects">Projects</a>
     </header>
-
     <div id="intro">
       <div class="intro-container">
         <div class="intro-wrapper">
@@ -58,11 +62,9 @@
         </div>
       </div>
     </div>
-
-    <div>
+    <div class="wave-wrapper wave-1">
       <img class="wave" src="./src/images/wave-haikei.svg" alt="wave" />
     </div>
-
     <div id="projects">
       <div class="project-wrapper">
         <h2>Projects</h2>
@@ -109,7 +111,6 @@
               />
             </div>
           </div>
-
           <div class="project p2">
             <div class="project-header">
               <h3 class="project-title">Hard Park</h3>
@@ -139,7 +140,6 @@
                 </ul>
               </div>
             </div>
-
             <div class="project-photos">
               <img
                 src="./src/images/hardpark-photos/Screen Shot 2022-04-01 at 8.40.57 AM.png"
@@ -151,7 +151,6 @@
               />
             </div>
           </div>
-
           <div class="project p3">
             <div class="project-header">
               <h3 class="project-title">KanBan</h3>
@@ -189,11 +188,9 @@
         </div>
       </div>
     </div>
-
-    <div>
+    <div class="wave-wrapper wave-2">
       <img class="wave" src="./src/images/wave-haikei (2).svg" alt="wave" />
     </div>
-
     <div id="skills">
       <div class="skills-wrapper">
         <h2>Skills</h2>
@@ -259,8 +256,12 @@
               <em>RESTful API's built with ActiveRecord</em>
             </p>
           </div>
-          <div class="skill s10"><p class="skill-name">SQLite3</p></div>
-          <div class="skill s11"><p class="skill-name">PostgreSQL</p></div>
+          <div class="skill s10">
+            <p class="skill-name">SQLite3</p>
+          </div>
+          <div class="skill s11">
+            <p class="skill-name">PostgreSQL</p>
+          </div>
           <div class="skill s12">
             <i class="fa-brands fa-github"></i>
             <p class="skill-name">Git</p>
@@ -271,11 +272,9 @@
         </div>
       </div>
     </div>
-
-    <div>
+    <div class="wave-wrapper wave-3">
       <img class="wave" src="./src/images/wave-haikei (3).svg" alt="wave" />
     </div>
-
     <div id="contacts">
       <div class="contact-wrapper">
         <h2>Contact</h2>
@@ -295,7 +294,6 @@
               ></a>
             </div>
           </div>
-
           <div class="contact c5">
             <form
               class="contact-form"
@@ -303,36 +301,44 @@
               action="https://formsubmit.co/baba7b2958de75a1707599b596f34af6"
               method="POST"
             >
-              <input
-                type="text"
-                autocomplete="off"
-                name="name"
-                required
-                placeholder="Your Name"
-              />
-              <input
-                type="email"
-                autocomplete="none"
-                name="email"
-                required
-                placeholder="Your Email"
-              />
+              <div class="name-email-wrapper">
+                <input
+                  type="text"
+                  autocomplete="off"
+                  name="name"
+                  required
+                  placeholder="Your Name"
+                  class="name-input"
+                />
+                <input
+                  type="email"
+                  autocomplete="none"
+                  name="email"
+                  required
+                  placeholder="Your Email"
+                  class="email-input"
+                />
+              </div>
+
               <input
                 type="text"
                 autocomplete="0"
                 name="subject"
                 required
                 placeholder="Subject"
+                class="subject-input"
               />
               <input type="text" name="_honey" style="display: none" />
-              <input
-                type="text-area"
+              <textarea
                 autocomplete="never"
                 name="message"
                 required
-                placeholder="Message"
-              />
-              <button type="submit">Submit</button>
+                class="message-input"
+              >
+              </textarea>
+              <div class="submit-wrapper">
+                <button type="submit">Submit</button>
+              </div>
             </form>
           </div>
           <!-- <a href="https://formsubmit.co/el/bafica" target="_blank">Email us</a> -->
