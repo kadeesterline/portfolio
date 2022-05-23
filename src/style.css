@@ -243,6 +243,12 @@ p {
   font-size: 5em;
 }
 
+.skill img {
+  margin: auto;
+  padding: 0;
+  width: 5em;
+  height: 5em;
+}
 .skill-name {
   margin: auto;
   padding-top: 50px;
