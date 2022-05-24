@@ -17,6 +17,7 @@ let typed = new Typed("#intro-span", typedOptions);
 let flickityOptions = {
   accessibility: true,
   adaptiveHeight: false,
+  // autoPlay: 2000,
   autoPlay: false,
   cellAlign: "center",
   cellSelector: ".skill",
