@@ -113,41 +113,41 @@ p {
 
 .intro-wrapper {
   display: flex;
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .intro-text {
-  width: 54%;
-  display: grid;
-  padding-right: 3rem;
-  grid-template-rows: repeat(1, 22rem);
+  margin: auto;
 }
 .intro-header {
-  font-size: 70px;
-  display: grid;
+  font-size: 4em;
+  min-height: 25rem;
+  max-width: 50rem;
+  margin: 1rem;
 }
 .intro-paragraph {
-  width: 40rem;
   margin-top: 20px;
   padding: 50px;
+  margin: 1rem;
   font-size: large;
   background: #fff;
   border-radius: 25px;
   box-shadow: 0px 0px 5px #000;
+  max-width: 50rem;
 }
 
 .image-wrapper {
 }
 
-.headshot {
+/* .headshot {
   max-width: 66%;
   min-width: 66%;
   aspect-ratio: 1;
   border-radius: 50%;
   margin-top: 5rem;
   padding: 2rem;
-}
+} */
 
 #projects {
   padding-bottom: 10px;
@@ -218,11 +218,11 @@ p {
   padding: 5px;
 }
 
-.project-photos img:hover {
+/* .project-photos img:hover {
   width: 50%;
   height: auto;
   margin: 0;
-}
+} */
 
 .tech-stack {
   display: flex;
