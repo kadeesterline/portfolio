@@ -4,6 +4,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   display: inline;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 a:link,
@@ -50,7 +56,7 @@ p {
 .header-title {
   float: left;
   margin: 0;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .header-link {
@@ -83,7 +89,7 @@ p {
 }
 
 .wave {
-  width: 100vw;
+  width: 100%;
   aspect-ratio: 960/300;
   margin: 0;
   padding: 0;
@@ -106,39 +112,41 @@ p {
 }
 
 .intro-wrapper {
-  width: 80%;
-  margin: auto;
   display: flex;
 }
 
 .intro-text {
-  width: 54%;
-  display: grid;
-  padding-right: 3rem;
-  grid-template-rows: repeat(1, 22rem);
+  width: 66%;
+  margin-top: 5rem;
+  place-self: center;
+  padding: 2rem;
 }
 
 .intro-header {
+  margin: auto;
   font-size: 70px;
   display: grid;
+  grid-template-rows: repeat(2, 5rem);
 }
 
 .intro-paragraph {
-  width: 40rem;
-  margin-top: 20px;
-  padding: 50px;
-  font-size: large;
-  background: #fff;
+  margin: auto;
+  background-color: #fff;
+  padding: 1rem;
   border-radius: 25px;
-  box-shadow: 0px 0px 5px #000;
+  width: 100%;
+}
+
+.image-wrapper {
 }
 
 .headshot {
-  width: 33%;
-  height: 33%;
-  float: right;
+  max-width: 66%;
+  min-width: 66%;
+  aspect-ratio: 1;
   border-radius: 50%;
-  margin: 50px;
+  margin-top: 5rem;
+  padding: 2rem;
 }
 
 #projects {
@@ -156,12 +164,13 @@ p {
 
 .project-container {
   display: grid;
+  margin: 0;
   gap: 50px;
   grid-template-rows: repeat(3, 25rem);
 }
 
 .project {
-  margin: 0;
+  margin: auto;
   padding: 0;
   width: 60rem;
   height: 25rem;
@@ -321,6 +330,7 @@ p {
 
 textarea {
   resize: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .name-email-wrapper {
