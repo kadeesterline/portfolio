@@ -113,28 +113,28 @@ p {
 
 .intro-wrapper {
   display: flex;
+  width: 80%;
+  margin: auto;
 }
 
 .intro-text {
-  width: 66%;
-  margin-top: 5rem;
-  place-self: center;
-  padding: 2rem;
+  width: 54%;
+  display: grid;
+  padding-right: 3rem;
+  grid-template-rows: repeat(1, 22rem);
 }
-
 .intro-header {
-  margin: auto;
   font-size: 70px;
   display: grid;
-  grid-template-rows: repeat(2, 5rem);
 }
-
 .intro-paragraph {
-  margin: auto;
-  background-color: #fff;
-  padding: 1rem;
+  width: 40rem;
+  margin-top: 20px;
+  padding: 50px;
+  font-size: large;
+  background: #fff;
   border-radius: 25px;
-  width: 100%;
+  box-shadow: 0px 0px 5px #000;
 }
 
 .image-wrapper {
