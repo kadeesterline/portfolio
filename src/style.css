@@ -222,7 +222,7 @@ p {
   /* padding: 5px; */
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .project {
     height: 40rem;
   }
@@ -237,7 +237,7 @@ p {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .project {
     height: 33rem;
   }
