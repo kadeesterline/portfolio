@@ -63,6 +63,7 @@ p {
   float: right;
   display: block;
   padding: 1rem;
+  font-weight: bold;
 }
 
 #intro {
@@ -123,34 +124,22 @@ p {
 .intro-header {
   font-size: 4em;
   min-height: 25rem;
-  max-width: 50rem;
+  max-width: 40rem;
   margin: 1rem;
 }
 .intro-paragraph {
   margin-top: 20px;
   padding: 50px;
   margin: 1rem;
-  font-size: large;
+  font-size: 2rem;
   background: #fff;
   border-radius: 25px;
-  box-shadow: 0px 0px 5px #000;
+  box-shadow: 10px 15px 0px #cfd6ae;
   max-width: 50rem;
 }
 
-.image-wrapper {
-}
-
-/* .headshot {
-  max-width: 66%;
-  min-width: 66%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  margin-top: 5rem;
-  padding: 2rem;
-} */
-
 #projects {
-  padding-bottom: 10px;
+  padding-bottom: 3rem;
 }
 
 .project-wrapper {
@@ -158,16 +147,11 @@ p {
   width: 75%;
 }
 
-/* 
-.project-wrapper h2 {
-  padding: 1rem;
-} */
-
 .project-container {
   display: grid;
   margin: auto;
   gap: 50px;
-  grid-template-rows: repeat(3, 28rem);
+  grid-template-rows: repeat(3, 29rem);
   margin: 0;
   padding: 25px;
 }
@@ -179,7 +163,7 @@ p {
   height: 28rem;
   border-radius: 25px;
   background: #fff;
-  box-shadow: 0px 0px 5px #000;
+  box-shadow: 10px 15px 0px #7f8575;
 }
 
 .project-header {
@@ -218,7 +202,8 @@ p {
 
 .project-photos img {
   max-width: 45%;
-  height: auto;
+  height: 15rem;
+  width: 30rem;
   margin: auto;
   /* padding: 5px; */
 }
@@ -246,12 +231,6 @@ p {
     max-width: 75%;
   }
 }
-
-/* .project-photos img:hover {
-  width: 50%;
-  height: auto;
-  margin: 0;
-} */
 
 .tech-stack {
   display: flex;
@@ -282,7 +261,7 @@ p {
   margin-bottom: 15px;
   padding: 10px;
   width: 12rem;
-  box-shadow: 0px 0px 5px #000;
+  box-shadow: 5px 10px 0px #bbc5aa;
   display: grid;
   grid-template-rows: repeat(3, 5rem);
   text-align: center;
@@ -336,7 +315,7 @@ p {
   height: 100%;
   width: 100%;
   border-radius: 25px;
-  box-shadow: 0px 0px 5px #000;
+  box-shadow: 10px 15px 0px #888c72;
   display: grid;
 }
 
@@ -351,9 +330,6 @@ p {
 
 .email-input {
   width: 50%;
-}
-
-.subject-input {
 }
 
 .message-input {
@@ -377,7 +353,7 @@ textarea {
   background-color: #bbc5aa; /* Green */
   border: none;
   border-radius: 5px;
-  color: white;
+  color: black;
   padding: 15px 32px;
   margin: 1rem;
   text-align: center;
@@ -386,8 +362,8 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #e6eed6;
-  color: black;
+  background-color: #7f8575;
+  color: white;
   box-shadow: 0px 0px 5px #000;
   cursor: pointer;
 }
