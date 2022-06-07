@@ -155,12 +155,13 @@ p {
 
 .project-wrapper {
   margin: auto;
-  width: 100%;
+  width: 75%;
 }
 
+/* 
 .project-wrapper h2 {
   padding: 1rem;
-}
+} */
 
 .project-container {
   display: grid;
@@ -266,7 +267,7 @@ p {
 
 .skills-wrapper {
   margin: auto;
-  width: 65%;
+  width: 75%;
 }
 
 .skills-container {
@@ -317,7 +318,7 @@ p {
 
 .contact-wrapper {
   margin: auto;
-  width: 66%;
+  width: 75%;
 }
 
 .contact-links {
