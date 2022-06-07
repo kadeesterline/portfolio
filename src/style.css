@@ -205,7 +205,7 @@ p {
   max-width: 30rem;
   min-height: 5rem;
   margin: auto;
-  /* padding: 5px; */
+  padding: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
