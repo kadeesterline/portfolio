@@ -155,16 +155,16 @@ p {
 
 .project-wrapper {
   margin: auto;
-  width: 65%;
+  width: 100%;
 }
 
-/* .project-wrapper h2 {
-  padding-bottom: 3rem;
-} */
+.project-wrapper h2 {
+  padding: 1rem;
+}
 
 .project-container {
   display: grid;
-  margin: 0;
+  margin: auto;
   gap: 50px;
   grid-template-rows: repeat(3, 28rem);
   margin: 0;
@@ -173,8 +173,8 @@ p {
 
 .project {
   margin: auto;
-  padding: 0;
-  width: 100%;
+  max-width: 60rem;
+  padding: 1rem;
   height: 28rem;
   border-radius: 25px;
   background: #fff;
@@ -184,6 +184,8 @@ p {
 .project-header {
   display: grid;
   margin-top: 5px;
+  margin-bottom: 0;
+
   border-bottom: 3px solid #000;
 }
 
@@ -205,17 +207,43 @@ p {
 }
 
 .project-photos {
-  height: 15rem;
+  /* height: 15rem; */
   display: flex;
   justify-content: center;
   align-content: center;
+  margin: 1rem;
+  padding: 0;
 }
 
 .project-photos img {
-  width: 38%;
+  max-width: 45%;
   height: auto;
   margin: auto;
-  padding: 5px;
+  /* padding: 5px; */
+}
+
+@media screen and (max-width: 1000px) {
+  .project {
+    height: 40rem;
+  }
+  .project-container {
+    grid-template-rows: repeat(3, 40rem);
+  }
+  .project-photos {
+    display: grid;
+  }
+  .project-photos img {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project {
+    height: 33rem;
+  }
+  .project-photos img {
+    max-width: 75%;
+  }
 }
 
 /* .project-photos img:hover {
