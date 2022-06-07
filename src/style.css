@@ -201,9 +201,9 @@ p {
 }
 
 .project-photos img {
-  max-width: 45%;
-  height: 15rem;
-  width: 30rem;
+  max-height: 15rem;
+  max-width: 30rem;
+  min-height: 5rem;
   margin: auto;
   /* padding: 5px; */
 }
